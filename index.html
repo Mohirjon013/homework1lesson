@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+    </style>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    
+  <header class="head"></header>
+  <main class="main" style="padding-top: 106px; padding-bottom: 291px;"></main>
+  <footer class="foot"></footer>
+  
+
+  <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./js/header.js"></script>
+  <script src="./js/section.js"></script>
+  <script src="./js/footer.js"></script>
+</body>
+</html>
